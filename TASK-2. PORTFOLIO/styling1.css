@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+
+}
+p{
+    color:white;
+}
+
+body{
+   
+    line-height: 1.5;
+    background-color: black;
+}
+.body {
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+    
+}
+nav{
+    flex:50%;
+    width:120px;
+    height:100vh;
+    display:flex;   
+    background-color:#222;
+    flex-direction: column;
+        position:fixed;
+    overflow: auto;
+
+
+}
+
+.sidebar{
+    flex:50%
+}
+.sidebars{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    padding:22px 24px;
+    z-index:1;
+    overflow: auto;
+    
+}
+nav a{
+    font-size:12px;
+    padding:8px 16px;
+}
+.sidebars i{
+    font-size:35px;
+}
+.sidebars:hover {
+    background-color:black;
+}
+.active{
+        background-color:black;
+
+}
+.clear{
+    clear:both;
+}
+h1, h2,h3{
+    color:white;
+}
+.content{
+    
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/student.jpg) ;
+    background-size: cover;
+    text-align: center;
+   height:600px;
+    width:1150px;
+}
+hr{
+    margin:10px 0px;
+}
+.text{
+    font-size:1.5em;
+    font-family: cursive;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+
+.aboutme{
+    display:flex;
+    flex-direction: row;
+    padding:40px;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme img{
+    flex:40%;
+    margin-right:60px;
+}
+.aboutme p{
+    
+    text-align: justify;
+    color:white;
+    font-size:20px;
+}
+.skills{
+    padding:40px;
+   
+}
+.images{
+     display:flex;
+    flex-wrap: wrap;
+}
+.skills img{
+    margin-right: 25px;
+    border-radius:15px;
+    height:227px;
+    width:187px;
+     -webkit-transition: width height 0.2s linear;
+    -moz-transition: width height 0.2s linear;
+    -o-transition: width height0.2s linear;
+    -ms-transition: width height 0.2s linear;
+  
+}
+.skills img:hover{
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
+}
+.education{
+    font-size: 20px;
+    padding:40px;
+}
+ ol li{
+    color: aliceblue;
+}
+ul li{
+    color:aliceblue;
+    list-style: none;
+}
+.resumedownload{
+    position:relative;
+    top:0;
+    left:2%;
+    font-size:15px;
+    background-color: lightgrey;
+    width:170px;
+    padding:12px;
+    cursor:pointer;
+}
+.projects{
+    padding:40px;
+}
+.projects div{
+    margin-bottom:30px;
+}
+.projects p{
+    font-size:18px;
+    font-family: serif;
+}
+
+.pro{
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro img{
+    border-radius:5px;
+    margin:0px 10px;
+}
+.contact{
+    padding:40px;
+    color:white;
+    font-size:20px
+}
+.contact a{
+    color:white;
+    text-decoration: none;
+}

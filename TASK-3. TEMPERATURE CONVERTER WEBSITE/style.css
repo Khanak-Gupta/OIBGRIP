@@ -1,0 +1,76 @@
+
+.converter {
+  background: white;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size:1.8em;
+  font-family: cursive;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-family: "Times New Roman", Times, serif;
+  font-size:20px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+select,
+.input-temperature {
+  width: 100%;
+  padding: 10px;
+  border:none;
+  border-bottom: 2px solid #ddd;
+  font-size: 16px;
+}
+
+.convert-btn {
+    width:100%;
+  background-color: #00C5F7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.convert-btn:hover {
+    background-image:linear-gradient(rgb(95, 183, 250),rgb(3, 123, 213),rgb(0, 63, 200)) ;
+   
+}
+
+.result {
+  margin-top: 20px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.result-text {
+  margin-bottom:5px;
+    font-size:1.5em;
+  font-family: "Times New Roman",Times, serif;
+  font-weight: bold;
+}
+
+.result-value {
+  margin: 0;
+  font-size: 24px;
+  font-family:math;
+  font-weight: bold;
+}
